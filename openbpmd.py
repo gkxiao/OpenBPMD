@@ -18,9 +18,9 @@ descriptn = \
     """
 
 # OpenMM
-from simtk.openmm import *
-from simtk.openmm.app import *
-from simtk.unit import *
+from openmm import *
+from openmm.app import *
+from openmm.unit import *
 try:
     from simtk.openmm.app.metadynamics import *
 except:
