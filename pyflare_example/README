@@ -1,1 +1,8 @@
 ### prepared files:
+.
+├── 1TVK_Dynamics.inpcrd.gz
+├── 1TVK_Dynamics.prmtop.gz
+├── 1TVK_prep.pdb
+├── 4I50_Dynamics.inpcrd.gz
+├── 4I50_Dynamics.prmtop.gz
+└── 4I50_prep.pdb 
