@@ -19,6 +19,11 @@ conda install -c conda-forge parmed
 
 Once the dependencies have been installed, running OpenBPMD involves simply running one of the Python scripts. Have a look at the ```examples/``` directory for further instructions on how to run and analyse the OpenBPMD results.
 
+### DEMO
+This blog post demonstrates the powerful capability of the combined use of Flare and OpenBPMD in assessing the stability of protein-ligand binding poses, using two binding poses of tubulin α-1β with Epothilone A (EpoA) - PDB 1TVK (controversial) and PDB 4I50 (an updated model) - as examples.
+
+Case study: <a href="http://blog.molcalx.com.cn/2025/05/06/exploring-pose-stability-using-bpmd.html">http://blog.molcalx.com.cn/2025/05/06/exploring-pose-stability-using-bpmd.html</a> 
+
 ### References
 
 1. A. J. Clark, P. Tiwary, K. Borrelli, S. Feng, E. Miller, R. Abel, R. A. Friesner, B. J. Berne, _J. Chem. Theory Comput._ 2016, 12, 6, 2990–2998, DOI:[https://doi.org/10.1021/acs.jctc.6b00201](https://doi.org/10.1021/acs.jctc.6b00201) 
