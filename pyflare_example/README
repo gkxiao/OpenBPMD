@@ -11,3 +11,25 @@ Files used in the case study
 ├── 4I50_Dynamics.inpcrd.gz
 ├── 4I50_Dynamics.prmtop.gz
 └── 4I50_prep.pdb 
+
+### Run BPMD
+1. BPMD for PDB 1TVK
+```
+pyflare openbpmd.py \
+-s 1TVK_Dynamics.inpcrd \
+-p 1TVK_Dynamics.prmtop \
+-o 1TVK \
+-lig_resname EP \
+-nreps 10
+-hill_height 0.300
+```
+2. BPMD for PDB 4I50
+```
+pyflare openbpmd.py \
+-s 4I50_Dynamics.inpcrd \
+-p 4I50_Dynamics.prmtop \
+-o 4I50 \
+-lig_resname EP \
+-nreps 10
+-hill_height 0.300
+```
