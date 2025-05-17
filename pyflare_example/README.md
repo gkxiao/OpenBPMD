@@ -15,6 +15,7 @@ Files used in the case study:
 └── 4I50_prep.pdb 
 ```
 ### Install MDAnalysis
+For PyFlare users, MDAnalysis installation is all that's required:
 ```
 pyflare -m pip install --user mdanalysis
 ```
