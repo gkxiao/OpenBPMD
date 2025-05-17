@@ -14,6 +14,10 @@ Files used in the case study:
 ├── 4I50_Dynamics.prmtop.gz
 └── 4I50_prep.pdb 
 ```
+### Install MDAnalysis
+```
+pyflare -m pip install --user mdanalysis
+```
 ### Run BPMD
 1. BPMD for PDB 1TVK
 ```
