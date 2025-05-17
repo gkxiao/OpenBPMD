@@ -40,3 +40,5 @@ pyflare openbpmd.py \
 -nreps 10
 -hill_height 0.300
 ```
+3. Results
+<img src="http://blog.molcalx.com.cn/wp-content/uploads/2025/05/EpoA-Tubulin-binding-pose-stability-analysis.png">
